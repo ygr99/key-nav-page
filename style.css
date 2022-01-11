@@ -28,7 +28,7 @@ kbd:hover>button {
 }
 
 body {
-    background: grey url(./阳台女孩.jpg) no-repeat center center;
+    background: grey url(./阳台女孩2.jpg) no-repeat center center;
 }
 
 main {
@@ -41,7 +41,7 @@ main {
 
 #main {
     display: inline-block;
-    ;
+    margin-bottom: -300px;
 }
 
 #main>div:nth-child(2) {
