@@ -55,7 +55,7 @@
                 var key = button2['id'] // q w e r t
                 var x = prompt('给我一个网址') // qq.com
                 hash[key] = x  // hash 变更
-                img2.src = 'http://' + x + '/favicon.ico'
+                img2.src =  x + '/favicon.ico'
                 img2.onerror = function (xxx) {
                     xxx.target.src = '//i.loli.net/2017/11/10/5a05afbc5e183.png'
                 }
@@ -66,7 +66,7 @@
         function createImage(domain) {
             var img = tag('img')
             if (domain) {
-                img.src = 'http://' + domain + '/favicon.ico'
+                img.src = domain + '/favicon.ico'
             } else {
                 img.src = '//i.loli.net/2017/11/10/5a05afbc5e183.png'
             }
@@ -126,7 +126,7 @@
                 var key = xzkjcnxlkcjlk['key'] // q w e
                 var website = hash[key]
                 //location.href = 'http://'+website
-                window.open('http://' + website, '_blank')
+                window.open(website, '_blank')
             }
         }
 
